@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+
+	<meta charset="utf-8">
+	<title>Swimming Blog</title>
+	<meta name="description" content="Blog na temat najwybitniejszych pływaków świata. Przedstawienie sylwetek subiektywnie wybranych z nich. Wejdź i sprawdź!">
+	<meta name="keywords" content="pływanie, swimming, michael phelps, otylia jędrzejczak">
+	<meta name="author" content="Karol Pierzyński, Grzegorz Majdan">
+	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/fontello.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap&subset=latin-ext" rel="stylesheet">
+	<script src="timer.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="jquery.scrollTo.min.js"></script>
+	
+	<script>
+	jQuery(document).ready(function($){
+    $(window).scroll(function(){
+        if ($(this).scrollTop() > 50) {
+            $('.scrollup').fadeIn('slow');
+        } else {
+            $('.scrollup').fadeOut('slow');
+        }
+    });
+    $('.scrollup').click(function(){
+        $("html, body").animate({ scrollTop: 0 }, 500);
+        return false;
+    });
+});
+	
+	</script>
+
+
+	
+</head>
+
+<body onload="odliczanie();">
+
+	<header>
+	
+	<a href="#" class="scrollup"></a>
+	
+		<h1 class="logo">Swimming Blog</h1>
+		<div id="zegar">12:00:00</div>
+		<div style="clear: both;"></div>
+		
+		<nav id="topnav">
+		
+			<ul class="menu">
+				<li><a href="index.html">Strona główna</a></li>
+				<li><a href="pierwszy.html">Pierwszy raz tutaj?</a></li>
+				<li><a href="slowniczek.html">Słowniczek pływaka</a></li>
+				<li><a href="plywanie.html">Dlaczego warto pływać?</a></li>
+				<li><a href="kontakt.html">Kontakt</a></li>
+			</ul>
+			
+		</nav>
+	
+	</header>
+	
+	<div class="container">
+	
+				<div class="west">
+				
+						<main>
+						
+								<article>
+								
+										<header>
+										
+													<h1>Sebastian Karaś: człowiek z żelaza</h1>
+													<p>21.01.2020 | 15:37:30 | Karol Pierzyński</p>
+										
+										
+										</header>
+								
+								<img src="img/karas1.jpg" class="articleimg" alt="Sebastian Karaś">
+									
+									<p>Sebastian Karaś przygodę z basenem rozpoczął w wieku 8 lat. Sukcesy przyszły niemal natychmiast. Najpierw reprezentował swoją szkołę na zawodach o różnych szczeblach, a później kraj na imprezach międzynarodowych. Ciężka praca w połączeniu z talentem przyniosły mu 50 medali Mistrzostw Polski we wszystkich kategoriach wiekowych i aż 5 rekordów Polski na basenie.</p>
+
+									<p>Kilka lat temu postanowił posmakować długodystansowych treningów na otwartym akwenie. Walka z siłami natury – a więc niską temperaturą wody, licznymi przeszkodami oraz falami – stała się jego pasją i zaowocowała kolejnymi niesamowitymi rekordami w karierze młodego sportowca.</p>
+
+									<p>Od tej chwili Sebastian stawiał sobie coraz trudniejsze cele do zrealizowania. Były to m.in.: rekordowy czas przepłynięcia najdłuższego jeziora w kraju (Jeziorak – 27 km / 5h 44 min), rekordy na odcinkach Hel-Gdynia (38 km w dwie strony) oraz w pływaniu ciągłym przez 12 i 24 godziny (54,2 km / 96,7 km). We wrześniu 2015 roku pokonał bez pianki Kanał La Manche (41 km), aktualizując rekord Polski do 8h 48 min.</p>
+									
+									<p><b>Urodzony, by pływać</b></p>
+									
+									<p>Sebastian Karaś przygodę z basenem rozpoczął w wieku 8 lat. Sukcesy przyszły niemal natychmiast. Najpierw reprezentował swoją szkołę na zawodach o różnych szczeblach, a później kraj na imprezach międzynarodowych. Ciężka praca w połączeniu z talentem przyniosły mu 50 medali Mistrzostw Polski we wszystkich kategoriach wiekowych i aż 5 rekordów Polski na basenie.</p>
+
+									<p>Kilka lat temu postanowił posmakować długodystansowych treningów na otwartym akwenie. Walka z siłami natury – a więc niską temperaturą wody, licznymi przeszkodami oraz falami – stała się jego pasją i zaowocowała kolejnymi niesamowitymi rekordami w karierze młodego sportowca.</p>
+
+									<p>Od tej chwili Sebastian stawiał sobie coraz trudniejsze cele do zrealizowania. Były to m.in.: rekordowy czas przepłynięcia najdłuższego jeziora w kraju (Jeziorak – 27 km / 5h 44 min), rekordy na odcinkach Hel-Gdynia (38 km w dwie strony) oraz w pływaniu ciągłym przez 12 i 24 godziny (54,2 km / 96,7 km). We wrześniu 2015 roku pokonał bez pianki Kanał La Manche (41 km), aktualizując rekord Polski do 8h 48 min.</p>
+									
+									<p><b>Jak ryba w wodzie</b></p>
+									
+									<p>W 2016 roku wielokrotny mistrz Polski postanowił pójść o krok dalej i przepłynąć wpław Bałtyk. Na realizację marzenia musiał czekać jednak rok, gdyż pierwsza z prób została przerwana. Pokonanie 100-kilometrowego odcinka łączącego Kołobrzeg z duńską wyspą Bornholm odbyło się w rewelacyjnym czasie 28 godzin i 30 minut, a Sebastian został pierwszą osobą w Polsce i na świecie, której udała się ta niezwykła sztuka. Przeszkód podczas wyzwania oczywiście nie brakowało. Wystarczy wspomnieć konieczność spędzenia kilkudziesięciu godzin z rzędu (również w nocy) w wodzie o temperaturze 16-18 stopni, odżywianie przy pomocy specjalnych kijów (samo dotknięcie łodzi traktowano jako dyskwalifikację), czy też fakt, że pianka pomagała utrzymać ciepłotę ciała wyłącznie w trakcie poruszania się. Polski pływak wykazał się niezwykłą siłą fizyczną i psychiczną: pokonał niewiarygodny dystans, fale, które momentami dochodziły do dwóch metrów, a także, a może przede wszystkim, siebie.</p>
+									
+									<img src="img/karas2.jpg" class="articleimg" alt="Sebastian Karaś">
+									
+									<p><b>Popłyń, przejedź, dobiegnij</b></p>
+									
+									<p>Niedawno grono pasji Sebastiana poszerzyło się o kolejną dyscyplinę: triathlon. Ekstremalne połączenie biegania, pływania oraz kolarstwa wymaga od uczestnika przemyślanego rozkładu sił oraz wysokiego poziomu mobilizacji, pozwalających osiągnąć możliwie najkorzystniejszy czas. To również ciężka praca nad całym ciałem: dobrzy pływacy charakteryzują się słabszymi stawami kolanowymi, z kolei biegacze przenoszą do wody nienaturalną sztywność górnych partii ciała.
+									Dla Sebastiana, który kocha wyzwania, to idealna dyscyplina! Pływak ma już za sobą pierwsze starty i oczywiście pierwsze medale!</p>
+
+									<p>Mocno trzymamy kciuki za dalsze sukcesy i realizację kolejnych projektów!</p>
+								
+								</article>
+						
+						</main>
+				
+				</div>
+				
+				<div class="east">
+				
+						<aside>
+						
+								<nav>
+								
+										<h2>Kategorie</h2>
+										
+										<ul>
+												<li><a href="phelps.html">Michael Phelps</li></a>
+												<li><a href="jedrzejczak.html">Otylia Jędrzejczak</li></a>
+												<li><a href="schooling.html">Joseph Schooling</li></a>
+												<li><a href="sjostorm.html">Sarah Sjöström</li></a>
+												<li><a href="molchanov.html">Alexey Molchanov</li></a>
+												<li><a href="karas.html">Sebastian Karaś</li></a>
+										</ul>
+										
+										<h2>Powiązane wpisy</h2>
+										
+										<ul>
+												<li><a href="sjostorm.html">Sarah Sjöström - szwedzka rekordistka</li></a>
+												<li><a href="phelps.html">Michael Phelps – olimpijczyk wszechczasów</li></a>
+												<li><a href="schooling.html">Joseph Schooling. Lekcja dorastania mistrza olimpijskiego.</li></a>
+										</ul>
+								
+								</nav>
+						
+						
+						</aside>
+				</div>
+				
+				<div style="clear:both;"></div>
+	
+	</div>
+	
+	<footer>
+	
+		<div class="socials">
+			<div class="socialdivs">
+				<div class="fb">
+					 <a href="http://facebook.com" target="_blank" class="sociallink"><i class="icon-facebook"></i></a>
+				</div>
+				<div class="yt">
+					<a href="http://youtube.com" target="_blank" class="sociallink"><i class="icon-youtube"></i></a>
+				</div>
+				<div class="tw">
+					<a href="http://twitter.com" target="_blank" class="sociallink"><i class="icon-twitter"></i></a>
+				</div>
+				<div class="insta">
+					<a href="http://instagram.com" target="_blank" class="sociallink"><i class="icon-instagram"></i></a>
+				</div>
+				<div style="clear:both"></div>
+			</div>
+		</div>
+		
+		<div class="info">
+			Wszelkie prawa zastrzeżone &copy; 2020 Dziękujemy za wizytę!
+		</div>
+	
+	</footer>
+
+</body>
+</html>

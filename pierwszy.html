@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+
+	<meta charset="utf-8">
+	<title>Swimming Blog</title>
+	<meta name="description" content="Blog na temat najwybitniejszych pływaków świata. Przedstawienie sylwetek subiektywnie wybranych z nich. Wejdź i sprawdź!">
+	<meta name="keywords" content="pływanie, swimming, michael phelps, otylia jędrzejczak">
+	<meta name="author" content="Karol Pierzyński, Grzegorz Majdan">
+	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/fontello.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap&subset=latin-ext" rel="stylesheet">
+	<script src="timer.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="jquery.scrollTo.min.js"></script>
+	
+	<script>
+	jQuery(document).ready(function($){
+    $(window).scroll(function(){
+        if ($(this).scrollTop() > 50) {
+            $('.scrollup').fadeIn('slow');
+        } else {
+            $('.scrollup').fadeOut('slow');
+        }
+    });
+    $('.scrollup').click(function(){
+        $("html, body").animate({ scrollTop: 0 }, 500);
+        return false;
+    });
+});
+	
+	</script>
+
+
+	
+</head>
+
+<body onload="odliczanie();">
+
+	<header>
+	
+	<a href="#" class="scrollup"></a>
+	
+		<h1 class="logo">Swimming Blog</h1>
+		<div id="zegar">12:00:00</div>
+		<div style="clear: both;"></div>
+		
+		<nav id="topnav">
+		
+			<ul class="menu">
+				<li><a href="index.html">Strona główna</a></li>
+				<li><a href="pierwszy.html">Pierwszy raz tutaj?</a></li>
+				<li><a href="slowniczek.html">Słowniczek pływaka</a></li>
+				<li><a href="plywanie.html">Dlaczego warto pływać?</a></li>
+				<li><a href="kontakt.html">Kontakt</a></li>
+			</ul>
+			
+		</nav>
+	
+	</header>
+	
+	<div class="container">
+	
+			<div class="west">
+			
+					<main>
+							
+							<article>
+							
+									<header>
+									
+									<h1>Pierwszy raz tutaj?</h1>
+									
+									</header>
+							
+							<p>Cześć! Cieszymy, że trafiłeś na naszego bloga. Mamy nadzieję, że przygotowane przygotowane przez artykuły na temat pływaków przypadną Ci do gustu. Dla Twojej wygody użytkowania strony przygotowaliśmy następujące udogodnienia:</p>
+							
+							<ul>
+							
+							<li><p>Strzałka znajdująca się w prawym dolnym rogu ekranu, umożliwiająca szybki powrót na początek strony:</p></li>
+							<center><img src="img/arrow.png"></center>
+							
+							<li><p>Nawigacja znajdująca się po prawej stronie, dzięki której możesz szybko przenieść się do interesującego Cię wpisu:</p></li>
+							<center><img src="img/nawigacja.png"></center>
+							
+							Pozdrawiamy i życzymy miłej lektury! :)
+							
+							
+							</ul>
+							
+							
+							
+							</article>
+					
+			</div>
+			
+
+			<div style="clear:both;"></div>
+	
+	</div>
+	
+	<footer>
+	
+		<div class="socials">
+			<div class="socialdivs">
+				<div class="fb">
+					 <a href="http://facebook.com" target="_blank" class="sociallink"><i class="icon-facebook"></i></a>
+				</div>
+				<div class="yt">
+					<a href="http://youtube.com" target="_blank" class="sociallink"><i class="icon-youtube"></i></a>
+				</div>
+				<div class="tw">
+					<a href="http://twitter.com" target="_blank" class="sociallink"><i class="icon-twitter"></i></a>
+				</div>
+				<div class="insta">
+					<a href="http://instagram.com" target="_blank" class="sociallink"><i class="icon-instagram"></i></a>
+				</div>
+				<div style="clear:both"></div>
+			</div>
+		</div>
+		
+		<div class="info">
+			Wszelkie prawa zastrzeżone &copy; 2020 Dziękujemy za wizytę!
+		</div>
+	
+	</footer>
+
+</body>
+</html>

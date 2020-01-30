@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+
+	<meta charset="utf-8">
+	<title>Swimming Blog</title>
+	<meta name="description" content="Blog na temat najwybitniejszych pływaków świata. Przedstawienie sylwetek subiektywnie wybranych z nich. Wejdź i sprawdź!">
+	<meta name="keywords" content="pływanie, swimming, michael phelps, otylia jędrzejczak">
+	<meta name="author" content="Karol Pierzyński, Grzegorz Majdan">
+	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/fontello.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap&subset=latin-ext" rel="stylesheet">
+	<script src="timer.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="jquery.scrollTo.min.js"></script>
+	
+	<script>
+	jQuery(document).ready(function($){
+    $(window).scroll(function(){
+        if ($(this).scrollTop() > 50) {
+            $('.scrollup').fadeIn('slow');
+        } else {
+            $('.scrollup').fadeOut('slow');
+        }
+    });
+    $('.scrollup').click(function(){
+        $("html, body").animate({ scrollTop: 0 }, 500);
+        return false;
+    });
+});
+	
+	</script>
+
+
+	
+</head>
+
+<body onload="odliczanie();">
+
+	<header>
+	
+	<a href="#" class="scrollup"></a>
+	
+		<h1 class="logo">Swimming Blog</h1>
+		<div id="zegar">12:00:00</div>
+		<div style="clear: both;"></div>
+		
+		<nav id="topnav">
+		
+			<ul class="menu">
+				<li><a href="index.html">Strona główna</a></li>
+				<li><a href="pierwszy.html">Pierwszy raz tutaj?</a></li>
+				<li><a href="slowniczek.html">Słowniczek pływaka</a></li>
+				<li><a href="plywanie.html">Dlaczego warto pływać?</a></li>
+				<li><a href="kontakt.html">Kontakt</a></li>
+			</ul>
+			
+		</nav>
+	
+	</header>
+	
+	<div class="container">
+	
+			<div class="west">
+			
+					<main>
+							
+							<article>
+							
+									<header>
+									
+									<h1>Słowniczek pływaka</h1>
+									
+									</header>
+							
+							<p>Czasami, podczas rozmawiania z pływakami, nie wszystkie używane zwroty muszą być zrozumiałe dla zwykłego człowieka niespędzającego połowy życia w wodzie. Dlatego, żeby poczuć się lepiej w ich towarzystwie – krótki słowniczek pływaka.</p>
+
+							<p><b>asymetria</b> – rzekomo rodzaj ćwiczeń technicznych, słowo klucz w pewnym warszawskim klubie – do dziś nikt nie wie jak to pływać;</p>
+							<p><b>bania do wymiany</b> – powiedzenie jednego z trenerów, który za wszystkie problemy obwiniał słabą „banię” zawodnika;</p>
+							<p><b>bańka</b> – bojka, pływaczek, pulbojka, ósemka, czyli mała deska, która w pływackim świecie ma niewiarygodnie dużo różnych nazw;</p>
+							<p><b>bilet</b>– klient indywidualny basenu, (zbyt) często wbijający się na tory z rezerwacją;</p>
+							<p><b>brandzlowanie</b> – obijanie się, nie przykładanie się do treningu;</p>
+							<p><b>bomba</b> – jest wtedy, gdy ręce i nogi odmawiają posłuszeństwa i marzysz o wyjściu z wody;</p>
+							<p><b>cep</b> – pływać cepem: walić bez sensu rękami o wodę;</p>
+							<p><b>cisnąć</b> – dobrze (szybko) płynąć;</p>
+							<p><b>czucie wody</b> – magiczna właściwość, która pozwala na lepsze napędzanie w wodzie;</p>
+							<p><b>długi (basen)</b> – basen 50 m;</p>
+							<p><b>drewno</b> – pływacki antytalent;</p>
+							<p><b>dzień konia</b> – dzień, w którym nawet najcięższy trening Cię nie zabije;</p>
+							<p><b>dzida</b> – kiedy zawodnik nagle traci dynamikę i moc, jakby ?dostał dzidą w plecy?, podczas startu można dostać niejedną dzidę;</p>
+							<p><b>frifa</b> – obca narosl dajaca turbo;</p>
+							<p><b>gaz</b> – być w gazie: mieć formę;</p>
+							<p><b>gleich</b> – żaba na plecach;</p>
+							<p><b>głaskanie wody</b> – brak napędu z rąk;</p>
+							<p><b>grażyna</b> – kolka;</p>
+							<p><b>guma</b> – strój startowy z ery poliuretanu, który „sam pływał i bił rekordy”;</p>
+							<p><b>kapa</b> – kolejne określenie na „bombę”;</p>
+							<p><b>kibel</b> – określenie pewnego pływackiego plecaka o bardzo specyficznym wyglądzie;</p>
+							<p><b>koń</b> – delfin</p>
+							<p><b>kosta</b> – zimna woda;</p>
+							<p><b>krótki</b> – basen 25 m;</p>
+							<p><b>kufel</b> – niechciany łyk wody;</p>
+							<p><b>kurwin</b> – skurcz;</p>
+							<p><b>łapki (lub: łopatki)</b> – plastikowe deseczki przytwierdzone do dłoni, w których pływacy po prostu uwielbiają pływać na treningach;</p>
+							<p><b>motylek</b> – historyczny styl, którym obecnie nikt nie pływa – ręce delfin, nogi żaba; czasami potocznie o delfinie;</p>
+							<p><b>młyn</b> – wspólny start w wodach otwartych, kiedy warto się skoncentrować, żeby nie stracić zębów;</p>
+							<p><b>otwarty</b> – basen na powietrzu, zwykle pięćdziesiątka;</p>
+							<p><b>perpa</b> – brzuch;</p>
+							<p><b>piętnastka z góry</b> – bezsprzecznie ulubiony dystans treningowy każdego pływaka – 15 m na maxa ze słupka;</p>
+							<p><b>postawiło (kogoś)</b> – bomba po ambitnym rozpoczęciu dystansu;</p>
+							<p><b>przepiórka (lub: kurczak)</b> – ćwiczenie techniczne, polegające na pływaniu trzymając kciuk/kciuki pod pachami. Okropnie niewygodne;</p>
+							<p><b>puste kilometry</b> – zadanie treningowe, które służy wyłącznie do nabicia kilometrów w dzienniczku;</p>
+							<p><b>samolot</b> – klasyka sprzętu pływackiego lat 80. i 90. (a może jeszcze wcześniej?) – duża styropianowa deska;</p>
+							<p><b>saper</b> – osoba, która często bombi;</p>
+							<p><b>spinka</b> – przesadny stres przed treningiem, lub zawodami;</p>
+							<p><b>sznerbi</b> – kolega;</p>
+							<p><b>ścinanie</b> – skracanie zadania treningowego, kiedy trener nie widzi;</p>
+							<p><b>umrzeć</b> – kolejne określenie na zbombienie;</p>
+							<p><b>wiatrak</b> – kraul z prostymi rękami;</p>
+							<p><b>wieloryb</b> – osobnik o dużej zawartości tkanki tłuszczowej;</p>
+							<p><b>wejść w nogi</b> – wykorzystać ciąg pływaka z przodu, w celu ułatwienia pływania, strasznie wkurzające;</p>
+							<p><b>wężować</b> – pływać zygzakiem;</p>
+							<p><b>wyrobnik</b> – osoba nie posądzana powszechnie o ponad przeciętny talent do pływania, ale nadrabiająca zaangażowaniem na treningach;</p>
+							<p><b>zagrajmy (w kamień, papier, nożyce)</b> – ulubiona forma rozstrzygania, kto ma prowadzić zadanie, kiedy nikomu się nie chce;</p>
+							<p><b>zając</b> – sparingpartner;</p>
+							<p><b>zawrotka</b> – zawrócenie przed ścianą, często jako forma ścinania;</p>
+							<p><b>zjazd</b> – kiedy zaczęło się dobrze, ale w trakcie dystansu już niekoniecznie;</p>
+							<p><b>zgon</b> – bomba po raz 356;</p>
+							
+							<center><img src="img/slownik.jpeg" alt="Słownik"></center
+							
+							</article>
+					
+			</div>
+			
+			<div class="east">
+				
+						<aside>
+						
+								<nav>
+								
+										<h2>Kategorie</h2>
+										
+										<ul>
+												<li><a href="phelps.html">Michael Phelps</li></a>
+												<li><a href="jedrzejczak.html">Otylia Jędrzejczak</li></a>
+												<li><a href="schooling.html">Joseph Schooling</li></a>
+												<li><a href="sjostorm.html">Sarah Sjöström</li></a>
+												<li><a href="molchanov.html">Alexey Molchanov</li></a>
+												<li><a href="karas.html">Sebastian Karaś</li></a>
+										</ul>
+										
+										<h2>Powiązane wpisy</h2>
+										
+										<ul>
+												<li><a href="karas.html">Sebastian Karaś - człowiek z żelaza</li></a>
+												<li><a href="phelps.html">Michael Phelps – olimpijczyk wszechczasów</li></a>
+												<li><a href="schooling.html">Joseph Schooling. Lekcja dorastania mistrza olimpijskiego.</li></a>
+										</ul>
+								
+								</nav>
+						
+						
+						</aside>
+				</div>
+			
+
+			<div style="clear:both;"></div>
+	
+	</div>
+	
+	<footer>
+	
+		<div class="socials">
+			<div class="socialdivs">
+				<div class="fb">
+					 <a href="http://facebook.com" target="_blank" class="sociallink"><i class="icon-facebook"></i></a>
+				</div>
+				<div class="yt">
+					<a href="http://youtube.com" target="_blank" class="sociallink"><i class="icon-youtube"></i></a>
+				</div>
+				<div class="tw">
+					<a href="http://twitter.com" target="_blank" class="sociallink"><i class="icon-twitter"></i></a>
+				</div>
+				<div class="insta">
+					<a href="http://instagram.com" target="_blank" class="sociallink"><i class="icon-instagram"></i></a>
+				</div>
+				<div style="clear:both"></div>
+			</div>
+		</div>
+		
+		<div class="info">
+			Wszelkie prawa zastrzeżone &copy; 2020 Dziękujemy za wizytę!
+		</div>
+	
+	</footer>
+
+</body>
+</html>

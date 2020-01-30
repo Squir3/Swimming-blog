@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+
+	<meta charset="utf-8">
+	<title>Swimming Blog</title>
+	<meta name="description" content="Blog na temat najwybitniejszych pływaków świata. Przedstawienie sylwetek subiektywnie wybranych z nich. Wejdź i sprawdź!">
+	<meta name="keywords" content="pływanie, swimming, michael phelps, otylia jędrzejczak">
+	<meta name="author" content="Karol Pierzyński, Grzegorz Majdan">
+	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/fontello.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap&subset=latin-ext" rel="stylesheet">
+	<script src="timer.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="jquery.scrollTo.min.js"></script>
+	
+	<script>
+	jQuery(document).ready(function($){
+    $(window).scroll(function(){
+        if ($(this).scrollTop() > 50) {
+            $('.scrollup').fadeIn('slow');
+        } else {
+            $('.scrollup').fadeOut('slow');
+        }
+    });
+    $('.scrollup').click(function(){
+        $("html, body").animate({ scrollTop: 0 }, 500);
+        return false;
+    });
+});
+	
+	</script>
+
+
+	
+</head>
+
+<body onload="odliczanie();">
+
+	<header>
+	
+	<a href="#" class="scrollup"></a>
+	
+		<h1 class="logo">Swimming Blog</h1>
+		<div id="zegar">12:00:00</div>
+		<div style="clear: both;"></div>
+		
+		<nav id="topnav">
+		
+			<ul class="menu">
+				<li><a href="index.html">Strona główna</a></li>
+				<li><a href="pierwszy.html">Pierwszy raz tutaj?</a></li>
+				<li><a href="slowniczek.html">Słowniczek pływaka</a></li>
+				<li><a href="plywanie.html">Dlaczego warto pływać?</a></li>
+				<li><a href="kontakt.html">Kontakt</a></li>
+			</ul>
+			
+		</nav>
+	
+	</header>
+	
+	<div class="container">
+	
+			<div class="west">
+			
+					<main>
+							
+							<article>
+							
+									<header>
+									
+									<h1>Dlaczego warto pływać?</h1>
+									
+									</header>
+							<p>Jeśli szukasz aktywności, dzięki której poprawisz swoją kondycję i zrzucisz kilka zbędnych kilogramów, pakuj pływacki ekwipunek i ruszaj na basen! Pływanie jest bowiem ćwiczeniem doskonałym: wysmukla sylwetkę, redukuje bóle pleców, wzmacnia kręgosłup, serce i płuca. Jakie jeszcze korzyści przynosi? Odpowiadamy!</p>
+							
+							<center><img src="img/plywanie.jpg" class="articleimg" alt="Pływanie"></center>
+							
+							<ol>
+							
+							<li><b>Wzmacnia kręgosłup</b></li>
+							
+							<p>Pływanie świetnie wpływa na rusztowanie naszego ciała, jakim jest kręgosłup. Wzmacnia mięśnie grzbietu i brzucha, które pomagają utrzymywać prawidłową postawę ciała, a także zapobiega rozwojowi wszelkiego rodzaju skrzywień. Dzięki zanurzaniu się w wodzie rozluźnisz również mięśnie szkieletowe (ich nadmierne spięcie bywa jednym z powodów uporczywego bólu pleców) oraz odciążysz krążki międzykręgowe.</p>
+
+							<p>Jaki styl pływacki jest najodpowiedniejszy dla osób borykających się z dolegliwościami bólowymi pleców? Styl grzbietowy! Wzmacnia bowiem te grupy mięśniowe, które stanowią podporę dla kręgosłupa, a także poprawia elastyczność szyi. Na ból odcinka lędźwiowego polecany jest kraul (co ważne – kryty), rozluźniający dolne partie mięśni. Żabka, a zwłaszcza ta „dyrektorska”, czyli z głową uniesioną stale ponad wodę, może natomiast wzmagać dolegliwości bólowe, pogłębiając skrzywienie w części krzyżowej i lędźwiowej oraz zwiększając przykurcze szyi.</p>
+
+							<p>Pływanie koryguje również wady postawy. Nie bez powodu ortopedzi, którzy leczą skrzywienia kręgosłupa u dzieci, zalecają systematyczne treningi pływackie, przepisując je niczym cudowne lekarstwo.</p>
+							
+							<li><b>Wzmacnia mięśnie, ale nie nadwyręża stawów</b></li>
+							
+							<p>Ćwiczenia w wodzie (nie tylko pływanie, ale i aqua aerobic) są rodzajem treningu siłowego. Kiedy pływasz, pracuje aż 75% mięśni Twojego ciała! Łącząc różne style pływackie, harmonijnie zbudujesz muskulaturę – pływaniem żabką wzmocnisz nogi, kraulem – ręce i barki, a motylkiem – brzuch. Ponieważ woda jest gęstsza niż powietrze, gdy ćwiczysz w basenie, musisz pokonać większy opór, a więc zmuszasz swoje mięśnie do wzmożonej pracy. Dzięki wyporności wody nie odczuwasz jednak ani tego wysiłku, ani ciężaru własnego ciała.</p>
+
+							<p>Pływanie uznawane jest za jeden z najbezpieczniejszych sportów. W wodzie nie przewrócisz się i nie stłuczesz kolana. Odciążone zostają również Twoje stawy, ścięgna i więzadła, a każdy ruch staje się płynniejszy. W basenie łatwiej wykonuje się ćwiczenia, które w sali treningowej sprawiają problemy.</p>
+							
+							<li><b>Zwiększa wydolność serca i płuc</b></li>
+							
+							<p>Pływanie nie tylko pomaga zbudować muskulaturę, ale i wzmacnia nasz najważniejszy mięsień – serce, sprawiając, że staje się bardziej wydolny. Usprawnia działanie układu krwionośnego, co pomaga dotlenić organizm, a także zmniejsza ciśnienie krwi. Korzyści? Mniejsze ryzyko wystąpienia zawału serca, choroby wieńcowej czy udaru mózgu.</p>
+
+							<p>Regularnie pływając, zwiększasz też pojemność oddechową swoich płuc (średnia pojemność oddechowa u zdrowego człowieka wynosi 5 litrów; u zawodowych pływaków wzrasta do 11!). Im jest większa, tym więcej tlenu przyswaja organizm. Dzięki temu poprawisz kondycję i wytrzymałość. Koniec z zadyszką po wejściu na trzecie piętro!</p>
+							
+							<li><b>Pomaga zrzucić kilka nadprogramowych kilogramów</b></li>
+							
+							<p>I wreszcie – sylwetka. Pływanie, zwłaszcza w chłodniejszej wodzie, genialnie podkręca metabolizm. Mięśnie, aby pokonać opór wody, muszą pracować intensywniej niż na lądzie, co sprawia, że w krótszym czasie spalasz więcej kalorii (w czasie półgodzinnego treningu – nawet 300, czego dowodem jest ssący głód, który zwykle dopada nas po wyjściu z wody). Dzięki pływaniu szybko zyskasz i odzyskasz formę, gubiąc zbędne kilogramy, poprawiając kondycję i osiągając wysmukloną, wysportowaną sylwetkę.</p>
+							
+							<center><img src="img/plywanie1.jpg" alt="Pływanie"></center>
+							
+							<li><b>Zwiększa gibkość i zwinność oraz… redukuje cellulit</b></li>
+							
+							<p>Ponieważ pływanie wymaga koordynacji wielu ruchów, dzięki regularnym wizytom na basenie zwiększysz zwinność swojego ciała. W wodzie łatwiej również o większy zakres ruchu ramion czy nóg, więc pływając, poprawiasz też gibkość.</p>
+
+							<p>Wodne aktywności świetnie wpływają również na elastyczność skóry. Ujędrniające efekty pływania pokochają zwłaszcza Panie, które miewają problem ze znienawidzoną „pomarańczową skórką”. Pływanie redukuje nie tylko tzw. cellulit tłuszczowy, ale i wodny, wywoływany przez zatrzymanie wody w organizmie. Doskonale pobudza krążenie, co sprawia, że obrzęki zostają zredukowane.</p>
+							
+							<li><b>Wzmacnia odporność</b></li>
+							
+							<p>Jeśli wraz z jesienią w Twoim domu rozpoczyna się sezon niekończących się przeziębień, wykup rodzinny karnet na basen. Systematyczne treningi pływackie usprawniają działanie układu krwionośnego i oddechowego, dzięki czemu wszystkie tkanki organizmu zostają odpowiednio dotlenione i lepiej odżywione. Ma to wpływ na odporność – system immunologiczny łatwiej radzi sobie z infekcjami, zwalczając wirusy i bakterie.</p>
+							
+							<li><b>Pomaga redukować stres</b></li>
+							
+							<p>Każda forma aktywności fizycznej wyzwala endorfiny – hormony szczęścia, ale pływanie zdecydowanie jest jednym z najprzyjemniejszych sportów. W basenie nie można się spocić ani potłuc, a ruch wody i miarowe oddychanie działają relaksująco. Efekt? Świetny nastrój, promienny uśmiech i uczucie cudownego odprężenia.</p>
+
+							<p>Pływanie jest sportem doskonałym – działa na odchudzanie, bóle kręgosłupa, cellulit i zły dzień. Regularne wizyty na basenie poprawią pracę Twojego serca i płuc, zredukują poziom stresu i wysmuklą sylwetkę. Są przepisem na zdrowie – prostym i dostępnym dla każdego, bez względu na wiek czy kondycję (i to bez recepty!).</p>
+
+							<p>Widzimy się na basenie?</p>
+							
+							<center><img src="img/plywanie2.jpg" class="articleimg" alt="Pływanie"></center>
+							
+							
+							
+							</ol>
+							
+							
+							
+							
+							</article>
+					
+			</div>
+			
+
+			<div style="clear:both;"></div>
+	
+	</div>
+	
+	<footer>
+	
+		<div class="socials">
+			<div class="socialdivs">
+				<div class="fb">
+					 <a href="http://facebook.com" target="_blank" class="sociallink"><i class="icon-facebook"></i></a>
+				</div>
+				<div class="yt">
+					<a href="http://youtube.com" target="_blank" class="sociallink"><i class="icon-youtube"></i></a>
+				</div>
+				<div class="tw">
+					<a href="http://twitter.com" target="_blank" class="sociallink"><i class="icon-twitter"></i></a>
+				</div>
+				<div class="insta">
+					<a href="http://instagram.com" target="_blank" class="sociallink"><i class="icon-instagram"></i></a>
+				</div>
+				<div style="clear:both"></div>
+			</div>
+		</div>
+		
+		<div class="info">
+			Wszelkie prawa zastrzeżone &copy; 2020 Dziękujemy za wizytę!
+		</div>
+	
+	</footer>
+
+</body>
+</html>
