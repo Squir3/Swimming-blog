@@ -1,235 +1,264 @@
 <!DOCTYPE html>
 <html lang="pl">
-<head>
+  <head>
+    <meta charset="utf-8" />
+    <title>Swimming Blog</title>
+    <meta
+      name="description"
+      content="Blog na temat najwybitniejszych pływaków świata. Przedstawienie sylwetek subiektywnie wybranych z nich. Wejdź i sprawdź!"
+    />
+    <meta
+      name="keywords"
+      content="pływanie, swimming, michael phelps, otylia jędrzejczak"
+    />
+    <meta name="author" content="Karol Pierzyński, Grzegorz Majdan" />
 
-	<meta charset="utf-8">
-	<title>Swimming Blog</title>
-	<meta name="description" content="Blog na temat najwybitniejszych pływaków świata. Przedstawienie sylwetek subiektywnie wybranych z nich. Wejdź i sprawdź!">
-	<meta name="keywords" content="pływanie, swimming, michael phelps, otylia jędrzejczak">
-	<meta name="author" content="Karol Pierzyński, Grzegorz Majdan">
-	
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	
-	<link rel="stylesheet" href="style.css">
-	<link rel="stylesheet" href="css/fontello.css">
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap&subset=latin-ext" rel="stylesheet">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-	<script src="jquery.scrollTo.min.js"></script>
-	
-	<script>
-	jQuery(document).ready(function($){
-    $(window).scroll(function(){
-        if ($(this).scrollTop() > 50) {
-            $('.scrollup').fadeIn('slow');
-        } else {
-            $('.scrollup').fadeOut('slow');
-        }
-    });
-    $('.scrollup').click(function(){
-        $("html, body").animate({ scrollTop: 0 }, 500);
-        return false;
-    });
-});
-	
-	</script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/fontello.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap&subset=latin-ext"
+      rel="stylesheet"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="jquery.scrollTo.min.js"></script>
 
-	
-</head>
+    <script>
+      jQuery(document).ready(function ($) {
+        $(window).scroll(function () {
+          if ($(this).scrollTop() > 50) {
+            $(".scrollup").fadeIn("slow");
+          } else {
+            $(".scrollup").fadeOut("slow");
+          }
+        });
+        $(".scrollup").click(function () {
+          $("html, body").animate({ scrollTop: 0 }, 500);
+          return false;
+        });
+      });
+    </script>
+  </head>
 
-<body onload="odliczanie();">
+    <header>
+      <a href="#" class="scrollup"></a>
 
-	<header>
-	
-	<a href="#" class="scrollup"></a>
-	
-		<h1 class="logo">Swimming Blog</h1>
-		<div id="zegar">12:00:00</div>
-		<div style="clear: both;"></div>
-		
-		<nav id="topnav">
-		
-			<ul class="menu">
-				<li><a href="index.html">Strona główna</a></li>
-				<li><a href="pierwszy.html">Pierwszy raz tutaj?</a></li>
-				<li><a href="slowniczek.html">Słowniczek pływaka</a></li>
-				<li><a href="plywanie.html">Dlaczego warto pływać?</a></li>
-				<li><a href="kontakt.html">Kontakt</a></li>
-			</ul>
-			
-		</nav>
-	
-	</header>
-	
-	<main>
-	
-		<article>
-		
-			<section>
-			
-				<div class="categories">
-				
-					<header>
-					
-						<h1>Witaj w świecie pływania!</h1>
-						<p>Czy jesteś fanem pływania? A może je uprawiasz? Chciałbyś dowiedzieć się jak najwybitniejsi pływacy znani na całym świecie osiągnęli swój sukces? Jeśli tak, to zapraszamy Cię do przeczytania przygotowanych przez nas artykułów, przedstawiających ich sylwetki, początki kariery, nieznane dotąd ciekawostki i wiele, wiele innych aspektów z ich życia... </p>
-						
-					</header>
-					
-					<div class="author">
-					
-						<figure>
-							<a href="phelps.html"><img src="img/phelps.jpg" alt="Michael Phelps"></a>
-							<figcaption>Michael Phelps</figcaption>
-						</figure>
-					
-					</div>
-					
-					<div class="author">
-					
-						<figure>
-							<a href="jedrzejczak.html"><img src="img/otylia.jpg" alt="Otylia Jędrzejczak"></a>
-							<figcaption>Otylia Jędrzejczak</figcaption>
-						</figure>
-					
-					</div>
+      <h1 class="logo">Swimming Blog</h1>
+      <div style="clear: both"></div>
 
-					<div class="author">
-					
-						<figure>
-							<a href="schooling.html"><img src="img/joseph.jpg" alt="Joseph Schooling"></a>
-							<figcaption>Joseph Schooling</figcaption>
-						</figure>
-					
-					</div>
+      <nav id="topnav">
+        <ul class="menu">
+          <li><a href="index.html">Strona główna</a></li>
+          <li><a href="pierwszy.html">Pierwszy raz tutaj?</a></li>
+          <li><a href="slowniczek.html">Słowniczek pływaka</a></li>
+          <li><a href="plywanie.html">Dlaczego warto pływać?</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+      </nav>
+    </header>
 
-					<div class="author">
-					
-						<figure>
-							<a href="sjostorm.html"><img src="img/sarah.jpg" alt="Sarah Sjöström"></a>
-							<figcaption>Sarah Sjöström</figcaption>
-						</figure>
-					
-					</div>
+    <main>
+      <article>
+        <section>
+          <div class="categories">
+            <header>
+              <h1>Witaj w świecie pływania!</h1>
+              <p>
+                Czy jesteś fanem pływania? A może je uprawiasz? Chciałbyś
+                dowiedzieć się jak najwybitniejsi pływacy znani na całym świecie
+                osiągnęli swój sukces? Jeśli tak, to zapraszamy Cię do
+                przeczytania przygotowanych przez nas artykułów,
+                przedstawiających ich sylwetki, początki kariery, nieznane dotąd
+                ciekawostki i wiele, wiele innych aspektów z ich życia...
+              </p>
+            </header>
 
-					<div class="author">
-					
-						<figure>
-							<a href="molchanov.html"><img src="img/alexey.jpg" alt="Alexey Molchanov"></a>
-							<figcaption>Alexey Molchanov</figcaption>
-						</figure>
-					
-					</div>
+            <div class="author">
+              <figure>
+                <a href="phelps.html"
+                  ><img src="img/phelps.jpg" alt="Michael Phelps"
+                /></a>
+                <figcaption>Michael Phelps</figcaption>
+              </figure>
+            </div>
 
-					<div class="author">
-					
-						<figure>
-							<a href="karas.html"><img src="img/sebastian.jpg" alt="Sebastian Karaś"></a>
-							<figcaption>Sebastian Karaś</figcaption>
-						</figure>
-					
-					</div>					
+            <div class="author">
+              <figure>
+                <a href="jedrzejczak.html"
+                  ><img src="img/otylia.jpg" alt="Otylia Jędrzejczak"
+                /></a>
+                <figcaption>Otylia Jędrzejczak</figcaption>
+              </figure>
+            </div>
 
-				</div>
-				
-			</section>
-			
-			<section id="newest">
-				
-				<div class="entries">
-				
-					<header>
-					
-						<h1>Najnowsze wpisy</h1>
-						<p>Poniżej znajdziesz trzy ostatnio opublikowane artykuły na temat pływaków - dzięki temu łatwo można sprawdzić, czy na blogu pojawiło się coś nowego. Wpisy zazwyczaj pojawiają się we wtorki i czwartki, o nowościach informujemy także na naszym Facebooku i Twitterze.</p>
-						
-					</header>	
+            <div class="author">
+              <figure>
+                <a href="schooling.html"
+                  ><img src="img/joseph.jpg" alt="Joseph Schooling"
+                /></a>
+                <figcaption>Joseph Schooling</figcaption>
+              </figure>
+            </div>
 
-					<div class="entry">
-					
-						<div class="entryimg">
-							<a href="karas.html"><img src="img/sebastian.jpg" alt="Sebastian Karaś"></a>
-						</div>
-						<div class="entrytxt">
-							<a href="karas.html"><h2>Sebastian Karaś - człowiek z żelaza</h2></a>
-							<p>Sebastian Karaś przygodę z basenem rozpoczął w wieku 8 lat. Sukcesy przyszły niemal natychmiast. Najpierw reprezentował swoją szkołę na zawodach o różnych szczeblach, a później kraj na imprezach międzynarodowych. Ciężka praca w połączeniu z talentem przyniosły mu 50 medali Mistrzostw Polski we wszystkich kategoriach wiekowych i aż 5 rekordów Polski na basenie.</p>
-						</div>
-					
-					</div>
+            <div class="author">
+              <figure>
+                <a href="sjostorm.html"
+                  ><img src="img/sarah.jpg" alt="Sarah Sjöström"
+                /></a>
+                <figcaption>Sarah Sjöström</figcaption>
+              </figure>
+            </div>
 
-					<div class="entry">
-					
-						<div class="entryimg">
-							<a href="phelps.html"><img src="img/phelps.jpg" alt="Michael Phelps"></a>
-						</div>
-						<div class="entrytxt">
-							<a href="phelps.html"><h2>Michael Phelps – olimpijczyk wszechczasów</h2></a>
-							<p>Fenomenalny! Żywa legenda! Niezwyciężony! – te określenia często padają pod adresem Michaela Phelpsa, sportowca, który w pływaniu osiągnął niebywały sukces i zapisał się na kartach historii sportu jako zdobywca 28 medali olimpijskich, w tym 23 złotych.</p>
-						</div>
-					
-					</div>
+            <div class="author">
+              <figure>
+                <a href="molchanov.html"
+                  ><img src="img/alexey.jpg" alt="Alexey Molchanov"
+                /></a>
+                <figcaption>Alexey Molchanov</figcaption>
+              </figure>
+            </div>
 
-					<div class="entry">
-					
-						<div class="entryimg">
-							<a href="schooling.html"><img src="img/joseph.jpg" alt="Joseph Schooling"></a>
-						</div>
-						<div class="entrytxt">
-							<a href="schooling.html"><h2>Joseph Schooling. Lekcja dorastania mistrza olimpijskiego.</h2></a>
-							<p>Świat poznał go jako złotego chłopca, który pokonał Michaela Phelpsa w jego ostatnim indywidualnym starcie w karierze. Teraz jest mężczyżną, który wciąż mieszka z rodzicami. Od złotego medalu Josepha Schoolinga minął szmat czasu, a wielka forma z igrzysk w Rio pozostała tylko wspomnieniem. Jak 24-letni Singapurczyk odnajduje się w nowej rzeczywistości, w której nie jest już nowicjuszem, studentem, chłopcem?</p>
-						</div>
-					
-					</div>					
-				</div>
-				
-			</section>
+            <div class="author">
+              <figure>
+                <a href="karas.html"
+                  ><img src="img/sebastian.jpg" alt="Sebastian Karaś"
+                /></a>
+                <figcaption>Sebastian Karaś</figcaption>
+              </figure>
+            </div>
+          </div>
+        </section>
 
-			<section>
-				
-				<div class="contact">
-				
-					<header>
-					
-						<h1>Kontakt z autorami</h1>
-						<p>Jeśli masz ochotę podyskutować, zaproponować temat wpisu lub sugestie co do działania bloga - zapraszamy do kontaktu mailowego, prosimy jednak o wyrozumiałość co do czasu udzielenia przez nas odpowiedzi.</p>
-						
-					</header>
-					
-					<a href="kontakt.html" class="bluebutton">Napisz do nas!</a>
-				
-				</div>
-				
-			</section>			
-		
-		</article>
-	
-	</main>
-	
-	<footer>
-	
-		<div class="socials">
-			<div class="socialdivs">
-				<div class="fb">
-					 <a href="http://facebook.com" target="_blank" class="sociallink"><i class="icon-facebook"></i></a>
-				</div>
-				<div class="yt">
-					<a href="http://youtube.com" target="_blank" class="sociallink"><i class="icon-youtube"></i></a>
-				</div>
-				<div class="tw">
-					<a href="http://twitter.com" target="_blank" class="sociallink"><i class="icon-twitter"></i></a>
-				</div>
-				<div class="insta">
-					<a href="http://instagram.com" target="_blank" class="sociallink"><i class="icon-instagram"></i></a>
-				</div>
-				<div style="clear:both"></div>
-			</div>
-		</div>
-		
-		<div class="info">
-			Autorzy: Oktawian Kusy, Krzysztof Woś &copy; 2020 Dziękujemy za wizytę!
-		</div>
-	
-	</footer>
+        <section id="newest">
+          <div class="entries">
+            <header>
+              <h1>Najnowsze wpisy</h1>
+              <p>
+                Poniżej znajdziesz trzy ostatnio opublikowane artykuły na temat
+                pływaków - dzięki temu łatwo można sprawdzić, czy na blogu
+                pojawiło się coś nowego. Wpisy zazwyczaj pojawiają się we wtorki
+                i czwartki, o nowościach informujemy także na naszym Facebooku i
+                Twitterze.
+              </p>
+            </header>
 
-</body>
+            <div class="entry">
+              <div class="entryimg">
+                <a href="karas.html"
+                  ><img src="img/sebastian.jpg" alt="Sebastian Karaś"
+                /></a>
+              </div>
+              <div class="entrytxt">
+                <a href="karas.html"
+                  ><h2>Sebastian Karaś - człowiek z żelaza</h2></a
+                >
+                <p>
+                  Sebastian Karaś przygodę z basenem rozpoczął w wieku 8 lat.
+                  Sukcesy przyszły niemal natychmiast. Najpierw reprezentował
+                  swoją szkołę na zawodach o różnych szczeblach, a później kraj
+                  na imprezach międzynarodowych. Ciężka praca w połączeniu z
+                  talentem przyniosły mu 50 medali Mistrzostw Polski we
+                  wszystkich kategoriach wiekowych i aż 5 rekordów Polski na
+                  basenie.
+                </p>
+              </div>
+            </div>
+
+            <div class="entry">
+              <div class="entryimg">
+                <a href="phelps.html"
+                  ><img src="img/phelps.jpg" alt="Michael Phelps"
+                /></a>
+              </div>
+              <div class="entrytxt">
+                <a href="phelps.html"
+                  ><h2>Michael Phelps – olimpijczyk wszechczasów</h2></a
+                >
+                <p>
+                  Fenomenalny! Żywa legenda! Niezwyciężony! – te określenia
+                  często padają pod adresem Michaela Phelpsa, sportowca, który w
+                  pływaniu osiągnął niebywały sukces i zapisał się na kartach
+                  historii sportu jako zdobywca 28 medali olimpijskich, w tym 23
+                  złotych.
+                </p>
+              </div>
+            </div>
+
+            <div class="entry">
+              <div class="entryimg">
+                <a href="schooling.html"
+                  ><img src="img/joseph.jpg" alt="Joseph Schooling"
+                /></a>
+              </div>
+              <div class="entrytxt">
+                <a href="schooling.html"
+                  ><h2>
+                    Joseph Schooling. Lekcja dorastania mistrza olimpijskiego.
+                  </h2></a
+                >
+                <p>
+                  Świat poznał go jako złotego chłopca, który pokonał Michaela
+                  Phelpsa w jego ostatnim indywidualnym starcie w karierze.
+                  Teraz jest mężczyżną, który wciąż mieszka z rodzicami. Od
+                  złotego medalu Josepha Schoolinga minął szmat czasu, a wielka
+                  forma z igrzysk w Rio pozostała tylko wspomnieniem. Jak
+                  24-letni Singapurczyk odnajduje się w nowej rzeczywistości, w
+                  której nie jest już nowicjuszem, studentem, chłopcem?
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div class="contact">
+            <header>
+              <h1>Kontakt z autorami</h1>
+              <p>
+                Jeśli masz ochotę podyskutować, zaproponować temat wpisu lub
+                sugestie co do działania bloga - zapraszamy do kontaktu
+                mailowego, prosimy jednak o wyrozumiałość co do czasu udzielenia
+                przez nas odpowiedzi.
+              </p>
+            </header>
+
+            <a href="kontakt.html" class="bluebutton">Napisz do nas!</a>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <footer>
+      <div class="socials">
+        <div class="socialdivs">
+          <div class="fb">
+            <a href="http://facebook.com" target="_blank" class="sociallink"
+              ><i class="icon-facebook"></i
+            ></a>
+          </div>
+          <div class="yt">
+            <a href="http://youtube.com" target="_blank" class="sociallink"
+              ><i class="icon-youtube"></i
+            ></a>
+          </div>
+          <div class="tw">
+            <a href="http://twitter.com" target="_blank" class="sociallink"
+              ><i class="icon-twitter"></i
+            ></a>
+          </div>
+          <div class="insta">
+            <a href="http://instagram.com" target="_blank" class="sociallink"
+              ><i class="icon-instagram"></i
+            ></a>
+          </div>
+          <div style="clear: both"></div>
+        </div>
+      </div>
+
+      <div class="info">
+        Autorzy: Oktawian Kusy, Krzysztof Woś &copy; 2020 Dziękujemy za wizytę!
+      </div>
+    </footer>
+  </body>
 </html>
